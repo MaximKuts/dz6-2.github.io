@@ -1,0 +1,84 @@
+ body {
+  background: #5c6b63;
+ }
+header  {
+  height: 20px;
+  background-color: #807b7b;
+  padding: 0 10px;
+  position:relative
+}
+.buttomdown{
+  position: absolute;
+  right:15px;
+}
+.buttom {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  scroll-behavior: smooth;
+}
+.Text1{
+  position: absolute;
+ color:#08f070;
+}
+.Wrapper{
+  max-width:1024px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 5px;
+}
+.Center{
+display: flex;
+border: 1px solid black;
+background: #ffffff;
+margin: 5px;
+justify-content: center;
+flex-direction: column;
+position: relative;
+    display: inline-block;
+}
+.Center h2 {
+  margin: 0 0 200px 0;
+}
+#button{
+  background: #4daa7b;
+  border-radius: 10px;
+  margin: 5px 20px 20PX;
+  text-align:center;
+  border: none;
+  cursor: pointer;
+  margin: 0px 20px 200px 20px
+}
+#button p:hover {color: #f1f1f1}
+p {
+  margin: 10px
+}
+.dropdown-child {
+  display: none;
+  background-color: black;
+  min-width: 200px;
+}
+.dropdown-child a {
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-child p{
+  color: #ffffff;
+}
+#button:hover .dropdown-child {
+  display: block;
+  -webkit-transition: all 1s ease-out 0.5s;
+     -moz-transition: top 1s ease-out 0.5s;
+     -o-transition: top 1s ease-out 0.5s;
+     transition: top 1s ease-out 0.5s;
+}
+footer  {
+  margin: 0 auto;
+  height: 20px;
+  background-color: #807b7b;
+  padding: 0 10px;
+}
+
+
